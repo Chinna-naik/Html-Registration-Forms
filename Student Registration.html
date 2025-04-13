@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Student Registration form </title>
+    </head>
+    <body bgcolor="lightblue">
+    <form border="">
+        <table align="center" width="700" cellpadding="10">
+
+            <tr>
+                <td cellspacing="2" ,align="center"></td>
+                <td> <h1> Student Registration form </h1></td>
+            </tr>
+            <tr>
+
+
+             <td>Rolno:</td>
+                 <td><input type="text" size="50" required  autofocus/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Student name:</td>
+                <td>
+                    <input type="text" value="" placeholder="firstname" required/>
+                    <input type="text" value="" placeholder="last name" required/>
+                </td>
+            </tr>
+
+            <tr>
+                <td> Father's Name:</td>
+                <td> <input type="text" value="name" required/></td>
+            </tr>
+
+            <tr>
+                <td> Date of Birth: </td>
+                <td><input type="text" size="2" placeholder="Day"/>
+                <input type="text" size="3" placeholder="Month"/>
+                <input type="text" size="4" placeholder="Year"/>
+                <i>(dd/mm/yyyy)</i></td>
+            </tr>
+
+            <tr>
+                <td> Mobile No: </td>
+                <td>
+                    <input type="text" size="3" value="+91"required/> -
+                    <input type="text" size="10" value=""/>
+                </td>
+            </tr>
+            
+            <tr>
+                <td> Password: </td>
+                <td> <input type="password" size="50"required/></td>
+            </tr>
+
+            <tr>
+                <td> Gender:</td>
+                <td>
+                    <input type="radio" value="m" name="g" required/> Male
+                    <input type="radio" value="f" name="g" required/> Female
+                </td>
+            </tr>
+            
+            <tr>
+                <td> Department:</td>
+                <td>
+                    <input type="checkbox" name="check" value="CSE" > CSE
+                    <input type="checkbox" name="check" value="ECE"> ECE
+                    <input type="checkbox" name="check" value="Civil"> Civil
+                    <input type="checkbox" name="check" value="Mech"> Mech
+                    <input type="checkbox" name="check" value="IS"> IS
+                </td>
+            </tr>
+
+            <tr>
+                <td> State:</td>
+                <td>
+                    <select required>
+                        <option>---------------------- "Select your State"---------------------- </option>
+                        <optgroup label="North India">
+                            <option type="Jammu & Kashmir"> Jammu & Kashmir
+                            </option>
+                            <option type="Punjab"> Punjab </option>
+                            <option type="Ladakh">Ladakh</option>
+                            <option type=""> Himachal Pradesh </option>
+                            <option type="">  Haryana </option>
+                            <option type="Uttarakhand"> Uttarakhan</option>
+                            <option type="Delhi"> Delhi </option>
+                            <option type="UttarPradesh"> Uttar Pradesh</option>
+                        </optgroup>
+                        <optgroup label="South India">
+                            <option type="Karnataka"> Karnataka </option>
+                            <option type="Kerala">Kerala</option>
+                            <option type="Tamil Nadu"> Tamil Nadu</option>
+                            <option type="Andhra Pradesh">Andhra Pradesh </option>
+                            <option type="Telangana"> Telangana </option>
+                        </optgroup>
+                        <optgroup label="East India">
+                            <option type="Bihar"> Bihar</option>
+                            <option type="Jharkhand">Jharkhand</option>
+                            <option type="Odisha">Odisha</option>
+                            <option type="West Bengal "> West Bengal</option>
+                        </optgroup>
+                        <optgroup label=" West India">
+                            <option type="Rajasthan "> Rajasthan</option>
+                            <option type="Gujarat "> Gujarat</option>
+                            <option type="Maharashtra">Maharashtra</option>
+                            <option type="Goa"> Goa</option>
+                        </optgroup>
+                        <optgroup label="Central India">
+                            <option type="Chhattisgarh "> Chhattisgarh</option>
+                            <option type="Madhya Pradesh ">Madhya Pradesh</option>
+                        </optgroup>
+                        <optgroup label="North-East India">
+                            <option type="Assam"> Assam</option>
+                            <option type="Arunachal Pradesh">Arunachal Pradesh</option>
+                            <option type="Manipur ">Manipur </option>
+                            <option type="Meghalaya ">Meghalaya </option>
+                            <option type="Mizoram ">Mizoram </option>
+                            <option type="Nagaland ">Nagaland </option>
+                            <option type="Tripura ">Tripura </option>
+                            <option type="Sikkim ">Sikkim</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> Student:</td>
+                <td> 
+                    <input type="file" accept=".jpg, .jpeg"/>
+                    <br/>
+                    <small style="color: red;">*Only JPG format is allowed. Please upload a .jpg or .jpeg file.</small>
+                </td>
+            </tr>
+            <tr>
+                <td> City </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td> Address </td>
+                <td> <textarea rows="5" cols="47"></textarea></td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2"> 
+                <input type="submit" value="Register">
+                <input type="reset" value="Reset">
+            </td>
+            </tr>
+            <tr>
+                <!---<td align="center" colspan="2">
+                <input type="reset" value="Reset">
+                </td>-->
+            </tr>
+        </table>
+        </form>
+    </body>
+</html>
